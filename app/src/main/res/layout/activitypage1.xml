@@ -11,12 +11,21 @@
     android:background="@drawable/logofinalcroppedpng3">
 
     <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/continue_button"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text= "tap to continue"
-        android:id="@+id/continue_button"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/continue_text"
+        android:text="tap to continue"
         android:textColor="#ffffff"
-        android:background="@null"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
 </RelativeLayout>

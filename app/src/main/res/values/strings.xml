@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RSP</string>
+    <string name="continue_text">tap to continue</string>
 </resources>

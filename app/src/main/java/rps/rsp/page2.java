@@ -84,6 +84,7 @@ public class page2 extends AppCompatActivity implements View.OnClickListener {
         myAlert.setMessage("Computer selects " +cpuMove+ ", you " +result+ "!");
         myAlert.show();
         myAlert.setCancelable(true);
+        //how to give id to alertDialog to save in strings.xml
 
     }
 
